@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Decodificador One</title>
+</head>
+<body>
+    <main id="container">
+        <header id="nav">
+            <img src="assets/img/Frame 6.png" alt="Logo Alura">
+        </header>
+        <section id="digiteSeuTexto">
+            <h2>Digite seu texto</h2>
+            <textarea name="textodigitado" id="textoDigitado" cols="60" rows="20" maxlength="500" placeholder="Digite Seu Texto"></textarea>
+            <div id="atencao">
+                <img src="assets/img/bi_exclamation-circle-fill.png" alt="Atenção" id="exclamacao">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div id="botoes">
+                <button id="botaoUm" onclick="codifica()">Criptografar</button>
+                <button id="botaoDois" onclick="decodifica()">Descriptografar</button>
+            </div>
+        </section>
+        <div id="textoCriptografado">
+            <div id="imageminicial">
+                <img src="assets/img/High quality products 1 1.svg" alt="Nada por Aqui" id="nadaPorAqui">
+            </div>
+            <div id="estaESuaMensagem">
+                <h2>Esta é sua Mensagem:</h2>
+            </div>
+            <textarea name="mensagemTranscrita" id="mensagemTranscrita" ols="60" rows="20" maxlength="500" placeholder="Nenhuma Mensagem por Aqui"></textarea>
+            <button id="botaoCopy" onclick="copy()">Copiar</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <h6>Desenvolvido por Caroline Teodoro</h6>
+    </footer>  
+    <script src="script.js"></script>
+</body>
+  
+</html>

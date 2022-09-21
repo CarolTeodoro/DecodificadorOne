@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+body{
+    margin: 0;
+	font-family: 'Quicksand';
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    background-color: #e8ecf3;
+    width: 98%;
+    height: 92vh;
+    
+}
+#nav {
+    margin-top: 12px;
+    
+}
+#digiteSeuTexto {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 20px;
+    color: #14335c;
+    
+}
+
+textarea{
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    background-color: #f1efef;
+    color:#14335c;
+    font-size: 16px;
+}
+
+#atencao{
+    width: 50%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+#exclamacao{
+    width: 18px;
+    height: 18px;
+    padding: 5px;
+}
+#botoes{
+    margin-bottom: 15px;
+}
+#botaoUm{
+    border-radius: 20px;
+    font-size: 1.2rem;
+	height: 60px;
+	width: 200px;
+    margin-right: 100px;
+	border: none;
+	background-color: #0e4a98;
+	color: #d1d1d1;
+	transition: all 0.2s linear;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    
+
+}
+
+#botaoUm:hover {
+	background-color: #03326c;
+}
+
+#botaoDois {
+    border-radius: 20px;
+    font-size: 1.2rem;
+	height: 60px;
+	width: 200px;
+	border: none;
+	background-color: #d1d1d1;
+	color: #0e4a98;
+	transition: all 0.2s linear;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+#botaoDois:hover {
+    background-color: #a7a8a9;
+    
+}
+
+#textoCriptografado {
+    width: 25%;
+    height: 94%;
+    margin-top: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    
+
+}
+#imageminicial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nadaPorAqui{
+
+    width: 55%;
+    transition: all 0.2s linear;
+}
+#mensagemTranscrita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 55%;
+    color: #383737;
+}
+
+#estaESuaMensagem{
+    color: #14335c;
+}
+#botaoCopy{
+    border-radius: 4px;
+    font-size: 1rem;
+	height: 30px;
+	width: 60px;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 10px;
+	border: none;
+	background-color: #0e4a98;
+	color: #d1d1d1;
+	transition: all 0.2s linear;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#botaoCopy:hover {
+	background-color: #03326c;
+}
+
+footer {
+    width: 100%;
+    height: 7vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+	background-color: #d2d2d2;
+	font-size: 22px;
+	color: #696969;	
+}
+
+@media screen and (min-width: 300px) and (max-width:767px) {
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        background-color: #e8ecf3;
+        width: 100%;
+        height: 100vh;
+        
+    }
+    #nav {
+        margin-top: 8px;
+        
+    }
+    #digiteSeuTexto {
+        width: 90%;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        color: #14335c;
+        margin: auto;
+        
+    }
+    #textoDigitado{
+        width: 60%;
+        height: 40%;
+    }
+    
+    textarea{
+        border-radius: 4px;
+        box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        background-color: #f1efef;
+        color:#14335c;
+        font-size: 11px;
+        margin: auto;
+        width: 340px;
+        height: 140px;
+    }
+    
+    #atencao{
+        width: 70%;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+    }
+    #exclamacao{
+        width: 18px;
+        height: 18px;
+        padding: 5px;
+    }
+    #botoes{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #botaoUm{
+        border-radius: 10px;
+        font-size: 0.5rem;
+        height: 30px;
+        width: 100px;
+        border: none;
+        background-color: #0e4a98;
+        color: #d1d1d1;
+        transition: all 0.2s linear;
+        box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        margin-bottom: 20px; 
+        margin-right:0px  
+    }
+    
+    #botaoUm:hover {
+        background-color: #03326c;
+    }
+    
+    #botaoDois {
+        border-radius: 10px;
+        font-size: 0.5rem;
+        height: 30px;
+        width: 100px;
+        border: none;
+        background-color: #d1d1d1;
+        color: #0e4a98;
+        transition: all 0.2s linear;
+        box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    }
+    #botaoDois:hover {
+        background-color: #a7a8a9;
+        
+    }
+    
+    #textoCriptografado {
+        width: 70%;
+        height: 140px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        padding-bottom: 10px;
+        
+    
+    }
+    #botaoCopy{
+        border-radius: 4px;
+        font-size: 0.5rem;
+        height: 20px;
+        width: 40px;
+        align-items: center;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    #nadaPorAqui{
+        transition: all 0.2s linear;
+        width: 0%;
+        padding: auto;
+    }
+    #mensagemInicial{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 90%;
+        color: #383737;
+        font-size: 11px;
+    }
+    #estaESuaMensagem{
+        font-size: 10px;
+    }
+    footer {     
+        font-size: 10px;
+        height: 4vh;
+        margin-top: 5px;
+        margin-bottom: 0px;           
+    }
+
+
+    
+}
+@media screen and (min-width: 768px) and (max-width:1023px){
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        background-color: #e8ecf3;
+        width: 100%;
+        height: 92vh;
+        
+    }
+    #nav {
+        margin-top: 12px;
+        
+    }
+    #digiteSeuTexto {
+        width: 96%;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        margin-right:0px;
+        font-size: 16px;
+        color: #14335c;
+        margin: auto;
+        
+    }
+    
+    textarea{
+        border-radius: 4px;
+        box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        background-color: #f1efef;
+        color:#14335c;
+        font-size: 16px;
+    }
+    
+    #atencao{
+        width: 50%;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+    }
+    #exclamacao{
+        width: 18px;
+        height: 18px;
+        padding: 5px;
+    }
+    #botaoUm{
+        border-radius: 20px;
+        font-size: 1.2rem;
+        height: 60px;
+        width: 200px;
+        margin-right:50px;
+        border: none;
+        background-color: #0e4a98;
+        color: #d1d1d1;
+        transition: all 0.2s linear;
+        box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        
+    
+    }
+    
+    #botaoUm:hover {
+        background-color: #03326c;
+    }
+    
+    #botaoDois {
+        border-radius: 20px;
+        font-size: 1.2rem;
+        height: 60px;
+        width: 200px;
+        border: none;
+        background-color: #d1d1d1;
+        color: #0e4a98;
+        transition: all 0.2s linear;
+        box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    }
+    #botaoDois:hover {
+        background-color: #a7a8a9;
+        
+    }
+    
+    #textoCriptografado {
+        width: 74%;
+        height: 20%;
+        margin: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 2px 2px rgba(39, 39, 39, 0.5);
+        border-radius: 20px;
+        font-size: 14px;
+        
+    
+    }
+    #nadaPorAqui{
+    
+        width: 0%;
+        padding: auto;
+    }
+    #mensagemInicial{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 74%;
+        color: #383737;
+        
+        
+    }
+    footer {
+        width: 100%;
+        height: 35px;
+        background-color: #d2d2d2;
+        font-size: 16px;
+        color: #696969;
+        text-align: center;
+        justify-content: center;
+        margin-top: 10px;
+    
+        
+    } 
+    
+}
